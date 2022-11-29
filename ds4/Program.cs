@@ -12,14 +12,14 @@ namespace DS4
             {
                 Console.Write($"Введите {i+1} элемент: ");
                 int k = Convert.ToInt32(Console.ReadLine());
-                list.Add(k);
+                list.Push(k);
             }
                 foreach (var item in list)
                 {
                     Console.WriteLine(item);
                 }
          
-                Console.Write($"Введите индекс элемент: ");
+                Console.Write($"Введите значение, которое хотите удалить: ");
                 int index = Convert.ToInt32(Console.ReadLine());
                 list.Delete(index);
 
@@ -27,8 +27,8 @@ namespace DS4
             {
                 Console.WriteLine(i);
             }
-
-                list.Clear();
+            Console.WriteLine($"Первый элемент = {list.Peek()}");
+            list.Clear();
                 foreach (var item in list)
                 {
                     Console.WriteLine(item);

@@ -35,7 +35,7 @@ namespace DS4
             get => _count;
         }
 
-        public void Add(TItem data)
+        public void Push(TItem data)
         {
             if (data == null)
             {
@@ -91,6 +91,14 @@ namespace DS4
                 previous = current;
                 current = current.Next;
             }
+        }
+        public TItem Peek()
+        {
+            if (_head == null)
+            {
+                return default;
+            }
+            return _head.Data;
         }
         public void Clear()
         {
