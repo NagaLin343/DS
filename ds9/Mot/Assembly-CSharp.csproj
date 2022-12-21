@@ -56,14 +56,14 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\AlignedGames\Polygonal Foliage Asset Package\Scripts\Utility\FlyCameraBehaviour.cs" />
-    <Compile Include="Assets\Scripts\FreeCamera.cs" />
     <Compile Include="Assets\Scripts\Controller.cs" />
-    <Compile Include="Assets\Scripts\StoneSpawner.cs" />
     <Compile Include="Assets\Scripts\Play.cs" />
-    <Compile Include="Assets\Scripts\Boom.cs" />
+    <Compile Include="Assets\AlignedGames\Polygonal Foliage Asset Package\Scripts\Utility\FlyCameraBehaviour.cs" />
     <Compile Include="Assets\Scripts\Dead.cs" />
+    <Compile Include="Assets\Scripts\Boom.cs" />
     <Compile Include="Assets\Scripts\Stone.cs" />
+    <Compile Include="Assets\Scripts\StoneSpawner.cs" />
+    <Compile Include="Assets\Scripts\FreeCamera.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
